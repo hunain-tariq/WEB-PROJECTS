@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>COFFEE HOUSE </title>
+</head>
+<body>
+    <!--sidebar-->
+    <div class="sidebar">
+        <h1 class="logo"><img class="logo" src="logo.jpeg" alt="" >COFFEE HOUSE</h1>
+            <!--sidebar menues  ICONS LINKS FROM IONICONS-->
+
+            <div class="sidebar-menu">
+                <a href="home.php"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+                <a href="home.php"><ion-icon name="book-outline"></ion-icon>Menu</a>
+                <a href="order.php"><ion-icon name="receipt-outline"></ion-icon>Order</a>
+                <a href="contact.php"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+                <a href="about.html"><ion-icon name="information-circle-outline"></ion-icon>About Us</a>
+                <a href="signup.php"><ion-icon name="id-card-outline"></ion-icon>Register</a>
+            </div>
+    <!--LOGOUT-->
+    <div class="sidebar-logout">
+    <a href="login.php"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+    
+    </div>
+    </div>
+    <!--main-->
+    <div class="main">
+    <div class="main-navbar">
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <div class="search">
+            <input type="text" placeholder="WHAT do you want?">
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="profile">
+            <a class="cart"href="#"><ion-icon name="cart-outline"></ion-icon></a>
+            <a class="user"href="#"><ion-icon name="person-outline"></ion-icon></a>
+
+        </div>
+    </div>
+    <div class="main-highlight">
+         <!--title section and arrow-->
+         <div class="main-header">
+       <h2 class="main-title">Recomendation</h2>
+       <div class="main-arrow">
+        <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+        <ion-icon class="forword" name="chevron-forward-circle-outline"></ion-icon>
+
+       </div>
+
+</div>
+         <!-- highlight menu -->
+         <div class="highlight-wraper">
+            <div class="highlight-card">
+                <img class="highlight-image" src="beverages.jpg" alt="">
+                <div class="highlight-desc">
+                    <h4>Beverages</h4>
+                    <p>RS:250</p>
+                </div>
+            </div>
+         
+            <div class="highlight-card">
+                <img class="highlight-image" src="coffee.jpg" alt="">
+                <div class="highlight-desc">
+                    <h4>Coffee</h4>
+                    <p>RS:500</p>
+                </div>
+            </div>
+        
+            <div class="highlight-card">
+                <img class="highlight-image" src="breakfast.png" alt="">
+                <div class="highlight-desc">
+                    <h4>Breakfast</h4>
+                    <p>RS:200</p>
+                </div>
+            </div>
+        
+            <div class="highlight-card">
+                <img class="highlight-image" src="shakes.jpeg" alt="">
+                <div class="highlight-desc">
+                    <h4>Shakes</h4>
+                    <p>RS:300</p>
+                </div>
+            </div>
+         </div>
+    </div>
+    <!-- main menu -->
+    <div class="main-menu">
+        <!------------------------------------------ filter -->
+        <div class="main-filter">
+            <div>
+                <h2 class="main-title">Menu<br>Caategory</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back-menu" name="chevron-back-circle-outline"></ion-icon>
+                     <ion-icon class="forword-menu" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+                <div class="filter-wraper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon  name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All menu</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="fastfood.html"><ion-icon  name="fast-food-outline"></ion-icon></a> 
+                        </div>
+                        <p>Fast food</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                           <a href="shakes.html"> <ion-icon  name="wine-outline"></ion-icon></a>
+                        </div>
+                        <p>Shakes</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="home.html"> <ion-icon  name="cafe-outline"></ion-icon></a> 
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="icecream.html"><ion-icon  name="ice-cream-outline"></ion-icon></a> 
+                        </div>
+                        <p>Ice cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <a href="healthy.html"><ion-icon  name="nutrition-outline"></ion-icon></a>  
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <!----------------------------------- food list ------------------------------->
+        <div class="main-detail">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="detail-wraper">
+                <div class="detail-card">
+                    <img class="detail-img" src="mango-shake-2-1.jpg"alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Mango shake </h4>
+                            <p class="detail-sub">is a blended fruit drink made with Philippine mangoes and evaporated milk. It's creamy, refreshing, and the perfect cold treat to beat the heat!.</p>
+                            <p class="price">RS:200</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>
+
+                <div class="detail-card"> 
+                    <img class="detail-img" src="secod.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Vanila</h4>
+                            <p class="detail-sub">A vanilla shake is known for its smooth and rich texture, combined with a sweet, aromatic flavor profile of vanilla..</p>
+                            <p class="price">RS:250</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <img class="detail-img" src="third.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Cool Mint </h4>
+                            <p class="detail-sub">EBasic Milkshake. Divide between glasses, top with chocolate ice-cream and decorate with Nestlé Aero Peppermint Bubbles and a Mini Corinthian wafer.</p>
+                            <p class="price">RS:300</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>
+           
+            </div>
+            <!-- ----------------------------------------------------------------------------- -->
+            <div class="detail-wraper">
+                <div class="detail-card">
+                    <img class="detail-img" src="forth.webp" alt">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>BluesBerry cheesecake</h4>
+                            <p class="detail-sub">Make Basic Milkshake. Top with whipped cream, extra blueberries and 1 crumbled Arnott’s Granita biscuit.</p>
+                            <p class="price">RS:150</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="5th.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>
+                            Raspberry and white chocolate</h4>
+                            <p class="detail-sub">Dip rim in finely grated white chocolate.Pour over jelly. Serve with a mini pink iced doughnut</p>
+                            <p class="price">RS:400</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="6th.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Pina Colada</h4>
+                            <p class="detail-sub">A tropical blend of rich coconut cream, white rum and tangy pineapple – serve with an umbrella for kitsch appeal.</p>
+                            <p class="price">RS:350</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                </div>    
+                </div>
+                <!-- ------------------------------------------------------------------------ -->
+            <div class="detail-wraper">
+                <div class="detail-card">
+                    <img class="detail-img" src="7th.webp" alt ">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Triple nut caramel</h4>
+                            <p class="detail-sub">Dip the rim of a milkshake glass into caramel, Pour in milkshake. Top with a scoop of vanilla ice-cream. Drizzle with extra caramel and sprinkle with extra nuts.</p>
+                            <p class="price">RS:900</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                    
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="8th.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Neapolitan</h4>
+                            <p class="detail-sub">Drizzle strawberry topping down the side of a glass. Top with a scoop of chocolate ice-cream.</p>
+                            <p class="price">RS:250</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+                    </div>
+                    
+                </div>
+
+                <div class="detail-card">
+                    <img class="detail-img" src="9th.webp" alt="">
+                    <div class="detail-desk">
+                        <div class="detail-name">
+                            <h4>Choc malt</h4>
+                            <p class="detail-sub">Drizzle Cottee’s Ice Magic Chocolate into a milkshake glass. Top with whipped cream and chopped Arnott’s Original Tim Tams.</p>
+                            <p class="price">RS:1000</p>
+                        </div>
+                        <a href="order.php"><ion-icon class="order-now" name="bag-handle"></ion-icon></a>   
+
+                    </div>
+                    
+                </div>
+            </div> 
+       
+                <!---------------------------------------------------------------------------------  -->
+           
+        </div>
+    </div>
+</div>
+</body>
+
+<!--ICONS LIBRARIES-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- JAVA SCRIPT -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
